@@ -1,1 +1,1 @@
-# Applications_Projects_POCs
+# Applications, Projects and POCs
