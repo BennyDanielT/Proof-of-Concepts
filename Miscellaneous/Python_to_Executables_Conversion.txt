@@ -1,0 +1,24 @@
+#Commands to create executable Python files
+#Note: Creating Python - .exe files isn't optimal since Python is an interpreted and NOT Compiled Language. 
+#Nevertheless, here's how you can create executables (Single / Multiple) with Python.
+
+If your python file has several dependencies than you need to use NSIS to 
+compile evrything into a single executable file (from a Zip file which contains the python file along with it's dependecies, 
+i.e, drag [FILENAME.py] to the folder which contains all it's dependencies)
+
+PyInstaller reads a Python script written by you. 
+It analyzes your code to discover every other module and library your script needs in order to execute. ... – and puts them with your script
+in a single folder, or optionally in a single executable file.
+----------------------------------------------------COMMANDS----------------------------------------------------------------------------
+
+1: Install package - "pyinstaller": pip install pyinstaller
+2: In CMD / Terminal Navigate to the Directory which contains the Python File, [FILENAME.py] for namesake.
+3: Type the following command to deploy an executable file:
+
+pyinstaller --onefile -w -i [ICON_NAME].ico [FILENAME.py]
+
+--onefile---->For a Single executable files with all dependencies.
+-w-------> top run in a new window.
+-i-------> to include an image for the executable file. (Icon should be present in the same directory as [FILENAME])
+
+
