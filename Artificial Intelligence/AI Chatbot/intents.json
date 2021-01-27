@@ -1,0 +1,26 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","greetings","What's up?","How's it going?"],
+  "responses":["Hello","Hey!","What can I do for you","How can I help you?"]
+  },
+  {"tag": "goodbye",
+  "patterns": ["Ciao","Cya","See you later","Goodbye","I am leaving","Have a good day","bye","Adios"],
+  "responses":["Sad to see you go","Talk to you later!","Goodbye!"]
+  },
+  {"tag": "age",
+  "patterns": ["How old","How old is Benny","What is Benny's age?","age?","old you?"],
+  "responses":["Benny is 24 years old","24 Years"]
+  },
+  {"tag": "name",
+  "patterns": ["What is your name?","What should I call you?","What's your name?","Who are you","Tell me your name"],
+  "responses":["Hello","Hey!","What can I do for you"]
+  },
+  {"tag": "Time",
+  "patterns": ["Time?","What's the time?","Can I have the time please?"],
+  "responses":["Hello","Hey!","What can I do for you"]
+  },
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","greetings","What's up?","How's it going?"],
+  "responses":["Hello","Hey!","What can I do for you"]
+  }
+]}
