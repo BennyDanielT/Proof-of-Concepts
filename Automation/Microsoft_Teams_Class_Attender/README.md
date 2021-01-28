@@ -1,0 +1,1 @@
+This script automates the entry and departure of Microsoft Teams Meetings.
