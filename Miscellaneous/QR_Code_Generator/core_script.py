@@ -1,4 +1,6 @@
-import qrcode
+
+
+import  qrcode
 import qrcode.image.svg
 
 #Use_Case_1
